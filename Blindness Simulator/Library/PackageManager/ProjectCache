@@ -1,25 +1,28 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/bswea/Blindness-Simulator/Blindness Simulator/Packages/manifest.json
+    m_FilePath: C:/Users/seanm/OneDrive/Documents/GitHub/Blindness-Simulator/Blindness
+      Simulator/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638794624798195927
-    m_Hash: 2847739134
+      ticks: 638794718002017606
+    m_Hash: 1756142777
   m_LockFileStatus:
-    m_FilePath: C:/Users/bswea/Blindness-Simulator/Blindness Simulator/Packages/packages-lock.json
+    m_FilePath: C:/Users/seanm/OneDrive/Documents/GitHub/Blindness-Simulator/Blindness
+      Simulator/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638794625487251071
-    m_Hash: 633469281
+      ticks: 638794718002028090
+    m_Hash: 484575461
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/bswea/Blindness-Simulator/Blindness Simulator/Packages
+m_ProjectPath: C:/Users/seanm/OneDrive/Documents/GitHub/Blindness-Simulator/Blindness
+  Simulator/Packages
 m_EditorVersion: 6000.0.45f1 (d91bd3d4e081)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +30,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.2d.sprite@072d7bd355e5
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.2d.sprite@072d7bd355e5
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -97,7 +101,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.2d.tilemap@8ef8f443744f
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.2d.tilemap@8ef8f443744f
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -184,7 +189,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.ads@a7b997f68a1d
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.ads@a7b997f68a1d
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -193,7 +199,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "Connect your game to the Unity Ads Network for iOS and Android to
     quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces
     with ironSource and recommends using Unity LevelPlay for ad mediation (instead
@@ -281,7 +287,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638161229410000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
@@ -302,10 +308,9 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"gameService":{"groupIndex":4,"groupName":"Monetization","genericDashboardUrl":"https://unityads.unity3d.com/help/index","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid","configurePath":"Project/Services/Ads"},"supportedPlatforms":["Android","iOS"],"changelog":"##
-    **Unity**\n - Remove redirect pop-ups directing users to Unity Mediation.\n##
-    **Android**\n### **Bugfix**\n- Fixed a NullPointerException when Application
-    Context is null for cached directory file path."}'
+  upmReserved: '{"changelog":"## **Unity**\n - Remove redirect pop-ups directing
+    users to Unity Mediation.\n## **Android**\n### **Bugfix**\n- Fixed a NullPointerException
+    when Application Context is null for cached directory file path.","gameService":{"groupName":"Monetization","groupIndex":4,"configurePath":"Project/Services/Ads","genericDashboardUrl":"https://unityads.unity3d.com/help/index","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
   assetStore:
     productId: 
   fingerprint: a7b997f68a1d40387ca4d33fc75578709c140a37
@@ -318,7 +323,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.6
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.ai.navigation@c74b2724ed42
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.ai.navigation@c74b2724ed42
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -391,7 +397,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638744428199200000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
@@ -434,7 +440,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.analytics@6cc66d58ac08
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.analytics@6cc66d58ac08
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -443,7 +450,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Analytics Library contains the Analytics Event Tracker component,
     the Data Privacy plug-in, and the Standard Events API.
   errors: []
@@ -492,28 +499,28 @@ m_ResolvedPackages:
     recommended: 3.8.1
     deprecated: []
   dependencies:
-  - name: com.unity.services.analytics
-    version: 1.0.4
   - name: com.unity.ugui
     version: 1.0.0
-  resolvedDependencies:
   - name: com.unity.services.analytics
-    version: 6.0.1
+    version: 1.0.4
+  resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+  - name: com.unity.services.analytics
+    version: 6.0.1
   - name: com.unity.services.core
     version: 1.14.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords:
   - analytics
@@ -528,7 +535,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637789683740000000
   documentationUrl: 
@@ -562,7 +569,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.7.1
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.collab-proxy@50ac96531b63
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.collab-proxy@50ac96531b63
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -687,7 +695,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638751271186710000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.7/manual/index.html
@@ -745,7 +753,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -846,7 +855,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.ide.rider@7921be93db40
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.ide.rider@7921be93db40
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -855,7 +865,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -930,7 +940,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638548308080000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
@@ -967,7 +977,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -976,7 +987,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -1036,7 +1047,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
@@ -1075,7 +1086,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1165,7 +1177,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.12.2
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.purchasing@649c6c7b3b1b
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.purchasing@649c6c7b3b1b
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1174,7 +1187,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing
     + the Asset Store plugin) versions 2.x to version 3.x, complete the following
     actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json
@@ -1279,14 +1292,14 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.services.core
+    version: 1.12.5
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.12.5
   resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
@@ -1294,16 +1307,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.14.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.1
   keywords:
   - purchasing
   - iap
@@ -1318,7 +1331,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638568999980000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.12/manual/index.html
@@ -1339,10 +1352,9 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"gameService":{"groupIndex":4,"groupName":"Monetize","configurePath":"Project/Services/In-App
-    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"],"changelog":"###
-    Fixed\n- GooglePlay - Fixed `Product.receipt`''s `price_amount_micros` returning
-    a string instead of a long."}'
+  upmReserved: '{"changelog":"### Fixed\n- GooglePlay - Fixed `Product.receipt`''s
+    `price_amount_micros` returning a string instead of a long.","gameService":{"groupName":"Monetize","groupIndex":4,"configurePath":"Project/Services/In-App
+    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
   assetStore:
     productId: 
   fingerprint: 649c6c7b3b1b6277839041f4987c0a1e66176678
@@ -1355,7 +1367,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.test-framework@388540dd9ce6
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.test-framework@388540dd9ce6
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1493,7 +1506,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1502,7 +1516,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
@@ -1602,18 +1616,18 @@ m_ResolvedPackages:
     recommended: 1.8.8
     deprecated: []
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1635,7 +1649,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638524833900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
@@ -1679,7 +1693,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.ugui@f3fac7af1578
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.ugui@f3fac7af1578
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1771,7 +1786,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.6
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1849,7 +1865,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638769546699650000
   documentationUrl: 
@@ -1899,7 +1915,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.12
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -1981,7 +1998,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638738251595540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
@@ -4438,7 +4455,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4517,7 +4535,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.14.0
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.services.core@9e81a5e38245
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.services.core@9e81a5e38245
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4571,18 +4590,18 @@ m_ResolvedPackages:
     recommended: 1.14.0
     deprecated: []
   dependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords: []
   registry:
@@ -4595,7 +4614,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638684041320270000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.14/manual/index.html
@@ -4635,7 +4654,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4644,7 +4664,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -4678,7 +4698,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -4712,7 +4732,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4762,7 +4783,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638699545898200000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
@@ -4797,7 +4818,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4806,7 +4828,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4881,7 +4903,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638575857900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
@@ -4920,7 +4942,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.0.1
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.services.analytics@f7e249983920
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.services.analytics@f7e249983920
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -4929,7 +4952,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Analytics package automatically collects core events and
     user properties when someone uses your game or application, and enables you to
     track specific in-game actions your user performs by defining custom events.
@@ -4975,10 +4998,10 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.services.core
     version: 1.12.4
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
@@ -4986,15 +5009,15 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
   - name: com.unity.services.core
     version: 1.14.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords: []
   registry:
@@ -5007,7 +5030,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638587935530000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html
@@ -5028,16 +5051,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"gameService":{"genericDashboardUrl":"https://dashboard.unity3d.com/analytics","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/events","projectDashboardUrlType":"OrganizationKeyAndProjectGuid","configurePath":"Project/Services/Analytics
-    - Gaming Services"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
-    8.1 Universal","Windows 10 Universal","WebGL"],"changelog":"### Added\n\n* New
-    Analytics Debug Panel accessible in the Unity Editor from Services -> Analytics
-    -> Debug Panel\n  * Monitor the SDK''s activity while you play-test\n  * Observe
-    events as they are recorded and uploaded\n  * ... and more!\n\n### Breaking Changes\n\n*
-    The minimum supported editor version for the UGS Analytics SDK is now 2021.3\n*
-    All methods, classes and structs marked as `Obsolete` in earlier versions of
-    the SDK have been removed\n  * If you have trouble upgrading, move to 5.1.0 first,
-    fix the deprecation warnings there, then move to 6.0.0"}'
+  upmReserved: '{"changelog":"### Added\n\n* New Analytics Debug Panel accessible
+    in the Unity Editor from Services -> Analytics -> Debug Panel\n  * Monitor the
+    SDK''s activity while you play-test\n  * Observe events as they are recorded
+    and uploaded\n  * ... and more!\n\n### Breaking Changes\n\n* The minimum supported
+    editor version for the UGS Analytics SDK is now 2021.3\n* All methods, classes
+    and structs marked as `Obsolete` in earlier versions of the SDK have been removed\n 
+    * If you have trouble upgrading, move to 5.1.0 first, fix the deprecation warnings
+    there, then move to 6.0.0","gameService":{"configurePath":"Project/Services/Analytics
+    - Gaming Services","genericDashboardUrl":"https://dashboard.unity3d.com/analytics","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/events","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
+    8.1 Universal","Windows 10 Universal","WebGL"]}'
   assetStore:
     productId: 
   fingerprint: f7e249983920dd67eba8952b09e37a6fe4582dd0
@@ -5050,7 +5073,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -5106,7 +5130,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638186318800000000
   documentationUrl: 
@@ -5141,7 +5165,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\bswea\Blindness-Simulator\Blindness Simulator\Library\PackageCache\com.unity.settings-manager@56a930affa1e
+  resolvedPath: C:\Users\seanm\OneDrive\Documents\GitHub\Blindness-Simulator\Blindness
+    Simulator\Library\PackageCache\com.unity.settings-manager@56a930affa1e
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5150,7 +5175,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   errors: []
@@ -5183,7 +5208,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637744099390000000
   documentationUrl: 

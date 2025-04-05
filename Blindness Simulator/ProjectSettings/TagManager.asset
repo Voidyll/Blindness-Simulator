@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Floor
+  - Bed
+  - Wardrobe
+  - Sink
+  - Sofa
+  - Fridge
+  - Table
+  - FrontDoor
   layers:
   - Default
   - TransparentFX
