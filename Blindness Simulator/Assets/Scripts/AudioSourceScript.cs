@@ -4,6 +4,9 @@ public class AudioSourceScript : MonoBehaviour
 {
     private AudioSource audioSource;
     public float maxPointRadius;
+    public float pointDelay;
+    private float count;
+    public Transform Player;
 
     public UnityEngine.Object lidarPoint;
 
@@ -11,18 +14,31 @@ public class AudioSourceScript : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        Player = GameObject.FindWithTag("Player").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (audioSource.isPlaying)
+        if(Player.GetComponent<PlayerController>().startTimer <= 0)
         {
-            Vector3 randomDirection = Random.onUnitSphere;
+            if (audioSource.isPlaying && Vector3.Distance(transform.position, Player.position) <= audioSource.maxDistance)
+            {
+                if(count >= pointDelay)
+                {
+                    count = 0;
+                    Vector3 randomDirection = Random.onUnitSphere;
 
-            Vector3 pointPos = transform.position + (randomDirection * Random.Range(0, maxPointRadius));
-            Quaternion quaternion = Quaternion.LookRotation(randomDirection);
-            Instantiate(lidarPoint, pointPos, quaternion);
+                    Vector3 pointPos = transform.position + (randomDirection * Random.Range(0, maxPointRadius));
+                    Quaternion quaternion = Quaternion.LookRotation(randomDirection);
+                    Instantiate(lidarPoint, pointPos, quaternion);
+                }
+                else
+                {
+                    count++;
+                }
+            }
         }
+        
     }
 }

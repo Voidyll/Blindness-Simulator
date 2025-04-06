@@ -8,6 +8,17 @@ TagManager:
   - Object
   - Plant
   - Interactible
+  - FrontDoor
+  - Wardrobe
+  - Sink
+  - Table
+  - Sofa
+  - Bed
+  - Fridge
+  - Grass
+  - Birds
+  - Crickets
+  - Swings
   layers:
   - Default
   - TransparentFX

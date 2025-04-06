@@ -101,4 +101,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   decayTimerMin: 5
-  decayTimerMax: 300
+  decayTimerMax: 80

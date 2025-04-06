@@ -48,7 +48,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -143,4 +143,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPointRadius: 3
+  pointDelay: 0
   lidarPoint: {fileID: 9136270451961974517, guid: edc79ab6fa7b5a74d96b6b512eabfb48, type: 3}
