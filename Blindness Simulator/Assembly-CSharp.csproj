@@ -62,8 +62,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AudioSourceScript.cs" />
+    <Compile Include="Assets\Scripts\Quests\GetFoodQuest.cs" />
+    <Compile Include="Assets\Scripts\Quests\GoToFrontDoorQuest.cs" />
+    <Compile Include="Assets\Scripts\Quests\GoToSwingsQuest.cs" />
     <Compile Include="Assets\Scripts\LidarPointScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Prefabs\FurnishedCabin\Scripts\MoveObjectController.cs" />
+    <Compile Include="Assets\Prefabs\FurnishedCabin\Scripts\MoveableObject.cs" />
+    <Compile Include="Assets\Scripts\Quests\SitOnSofaQuest.cs" />
+    <Compile Include="Assets\Scripts\Quests\FindCrickets.cs" />
+    <Compile Include="Assets\Scripts\Quests\BrushTeethQuest.cs" />
+    <Compile Include="Assets\Scripts\Quests\GetOutOfBedQuest.cs" />
+    <Compile Include="Assets\Scripts\QuestManager.cs" />
+    <Compile Include="Assets\Prefabs\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Quest.cs" />
+    <Compile Include="Assets\Scripts\Quests\GetDressedQuest.cs" />
+    <Compile Include="Assets\Scripts\Quests\ListenToBirds.cs" />
+    <Compile Include="Assets\Prefabs\FurnishedCabin\Scripts\Player\PlayerLook.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public UnityEngine.Object objectLidarPoint;
     public UnityEngine.Object plantLidarPoint;
     public UnityEngine.Object interactibleLidarPoint;
+    public UnityEngine.Object grassLidarPoint;
     public Transform playerCamera;
     public Transform whiteCane;
     public CharacterController cc;
@@ -24,6 +25,8 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.81f;
     private Vector3 whiteCaneStore;
     private Vector3 AuraStore;
+
+    public float startTimer = 30f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -45,13 +48,26 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        PlayerMoveInput = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
-        PlayerMouseInput = new Vector3(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        if(startTimer <= 0)
+        {
+            PlayerMoveInput = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+            PlayerMouseInput = new Vector3(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
 
-        WhiteCane();
-        AuraPoints();
-        MovePlayer();
-        MoveCamera();
+            WhiteCane();
+            AuraPoints();
+            MovePlayer();
+            MoveCamera();
+            startTimer = 0;
+        }
+        else
+        {
+            startTimer -= Time.fixedDeltaTime;
+
+            if(Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.O))
+            {
+                startTimer = 0;
+            }
+        }
     }
 
     void MovePlayer()
@@ -83,7 +99,7 @@ public class PlayerController : MonoBehaviour
     {
         RaycastHit Hit;
 
-        if (Physics.Raycast(transform.position, whiteCane.position - transform.position, out Hit, 3))
+        if (Physics.Raycast(transform.position, whiteCane.position - transform.position, out Hit, 3, LayerMask.GetMask("Default"), QueryTriggerInteraction.Ignore))
         {
             if (Vector3.Distance(whiteCaneStore, Hit.point) > 0.01f)
             {
@@ -93,19 +109,36 @@ public class PlayerController : MonoBehaviour
                 {
                     case "Object":
                         Instantiate(objectLidarPoint, Hit.point, quaternion);
-                        Debug.Log("Object");
                         break;
                     case "Plant":
                         Instantiate(plantLidarPoint, Hit.point, quaternion);
-                        Debug.Log("Plant");
+                        break;
+                    case "Grass":
+                        Instantiate(grassLidarPoint, Hit.point, quaternion);
                         break;
                     case "Interactible":
                         Instantiate(interactibleLidarPoint, Hit.point, quaternion);
-                        Debug.Log("Intractible");
+                        break;
+                    case "Table":
+                        Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                        break;
+                    case "Sofa":
+                        Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                        break;
+                    case "Sink":
+                        Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                        break;
+                    case "Bed":
+                        Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                        break;
+                    case "Wardrobe":
+                        Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                        break;
+                    case "Fridge":
+                        Instantiate(interactibleLidarPoint, Hit.point, quaternion);
                         break;
                     default:
                         Instantiate(groundLidarPoint, Hit.point, quaternion);
-                        Debug.Log("default");
                         break;
                 }
             }
@@ -118,10 +151,9 @@ public class PlayerController : MonoBehaviour
         for (int i = 0; i < auraSpeed; i++)
         {
             Vector3 randomDirection = Random.onUnitSphere;
-
             RaycastHit Hit;
 
-            if (Physics.Raycast(transform.position, randomDirection, out Hit, 2))
+            if (Physics.Raycast(transform.position, randomDirection, out Hit, 2, LayerMask.GetMask("Default"), QueryTriggerInteraction.Ignore))
             {
                 if(!Hit.collider.CompareTag("Player"))
                 {
@@ -138,6 +170,27 @@ public class PlayerController : MonoBehaviour
                                 Instantiate(plantLidarPoint, Hit.point, quaternion);
                                 break;
                             case "Interactible":
+                                Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Grass":
+                                Instantiate(grassLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Table":
+                                Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Sofa":
+                                Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Sink":
+                                Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Bed":
+                                Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Wardrobe":
+                                Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Fridge":
                                 Instantiate(interactibleLidarPoint, Hit.point, quaternion);
                                 break;
                             default:
