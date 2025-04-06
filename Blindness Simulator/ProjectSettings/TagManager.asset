@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Floor
+  - Object
+  - Plant
+  - Interactible
   layers:
   - Default
   - TransparentFX

@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 11873178}
   m_Layer: 0
   m_Name: Sphere (1)
-  m_TagString: Untagged
+  m_TagString: Interactible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 48758377}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -368,7 +368,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab341f5e602d1924585a4e89ec6b0a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lidarPoint: {fileID: 9136270451961974517, guid: 7df9b426f17eb0b4084c742593a1dca9, type: 3}
+  groundLidarPoint: {fileID: 9136270451961974517, guid: 7df9b426f17eb0b4084c742593a1dca9, type: 3}
+  objectLidarPoint: {fileID: 9136270451961974517, guid: f4680ee9c029fd64d8802cdaf3262277, type: 3}
+  plantLidarPoint: {fileID: 9136270451961974517, guid: 68c62a05f994f634bb37a033672b6fbc, type: 3}
+  interactibleLidarPoint: {fileID: 9136270451961974517, guid: 7c8f88f35ea44eb4191502aa45373faa, type: 3}
   playerCamera: {fileID: 2086338252}
   whiteCane: {fileID: 737349913}
   cc: {fileID: 223253438}
@@ -592,6 +595,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &410710453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2964940597658806289, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: maxPointRadius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245469323917723970, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600005161171201247, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_Name
+      value: Audio Source
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129816157086117104, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129816157086117104, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 90cc1c772e4b9cc47b8892f5c82e3811, type: 3}
+    - target: {fileID: 5129816157086117104, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: MinDistance
+      value: 1.0667701
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129816157086117104, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 90cc1c772e4b9cc47b8892f5c82e3811, type: 3}
+    - target: {fileID: 5129816157086117104, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3472ac0b47aafcd48b8db85d23d29705, type: 3}
 --- !u!1 &487533824
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +690,7 @@ GameObject:
   - component: {fileID: 487533826}
   m_Layer: 0
   m_Name: Cylinder (1)
-  m_TagString: Untagged
+  m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -620,8 +704,8 @@ Transform:
   m_GameObject: {fileID: 487533824}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0.049999997}
-  m_LocalScale: {x: 0.01, y: 1, z: 0.01}
+  m_LocalPosition: {x: 0, y: 2.5, z: 0.049999997}
+  m_LocalScale: {x: 0.01, y: 3, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1023404524}
@@ -747,7 +831,7 @@ GameObject:
   - component: {fileID: 877492632}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Interactible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -972,7 +1056,7 @@ GameObject:
   - component: {fileID: 1347298612}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1080,7 +1164,7 @@ GameObject:
   - component: {fileID: 1471620458}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1358,7 +1442,7 @@ GameObject:
   - component: {fileID: 2040519737}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1372,8 +1456,8 @@ Transform:
   m_GameObject: {fileID: 2040519735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.024999999, y: 1, z: 0.024999999}
-  m_LocalScale: {x: 0.01, y: 1, z: 0.01}
+  m_LocalPosition: {x: 0.024999999, y: 2.5, z: 0.024999999}
+  m_LocalScale: {x: 0.01, y: 3, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1023404524}
@@ -1519,7 +1603,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -1554,3 +1638,4 @@ SceneRoots:
   - {fileID: 335570604}
   - {fileID: 1023404524}
   - {fileID: 223253437}
+  - {fileID: 410710453}

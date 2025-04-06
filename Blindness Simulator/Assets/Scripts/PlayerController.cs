@@ -11,7 +11,10 @@ public class PlayerController : MonoBehaviour
     private Vector2 PlayerMouseInput;
     private float xRot;
 
-    public UnityEngine.Object lidarPoint;
+    public UnityEngine.Object groundLidarPoint;
+    public UnityEngine.Object objectLidarPoint;
+    public UnityEngine.Object plantLidarPoint;
+    public UnityEngine.Object interactibleLidarPoint;
     public Transform playerCamera;
     public Transform whiteCane;
     public CharacterController cc;
@@ -62,7 +65,7 @@ public class PlayerController : MonoBehaviour
             Velocity.y += gravity * Time.fixedDeltaTime;
         }
 
-        Vector3 MoveVector = transform.TransformDirection(PlayerMoveInput).normalized;
+        Vector3 MoveVector = transform.TransformDirection(PlayerMoveInput);
 
         cc.Move(MoveVector * speed * Time.fixedDeltaTime);
         cc.Move(Velocity * Time.deltaTime);
@@ -85,7 +88,26 @@ public class PlayerController : MonoBehaviour
             if (Vector3.Distance(whiteCaneStore, Hit.point) > 0.01f)
             {
                 Quaternion quaternion = Quaternion.LookRotation(Hit.normal);
-                Instantiate(lidarPoint, Hit.point, quaternion);
+
+                switch (Hit.collider.tag)
+                {
+                    case "Object":
+                        Instantiate(objectLidarPoint, Hit.point, quaternion);
+                        Debug.Log("Object");
+                        break;
+                    case "Plant":
+                        Instantiate(plantLidarPoint, Hit.point, quaternion);
+                        Debug.Log("Plant");
+                        break;
+                    case "Interactible":
+                        Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                        Debug.Log("Intractible");
+                        break;
+                    default:
+                        Instantiate(groundLidarPoint, Hit.point, quaternion);
+                        Debug.Log("default");
+                        break;
+                }
             }
             whiteCaneStore = Hit.point;
         }
@@ -101,12 +123,27 @@ public class PlayerController : MonoBehaviour
 
             if (Physics.Raycast(transform.position, randomDirection, out Hit, 2))
             {
-                if(!Hit.collider.CompareTag("Floor") && !Hit.collider.CompareTag("Player"))
+                if(!Hit.collider.CompareTag("Player"))
                 {
                     if (Vector3.Distance(AuraStore, Hit.point) > 0.5f)
                     {
                         Quaternion quaternion = Quaternion.LookRotation(Hit.normal);
-                        Instantiate(lidarPoint, Hit.point, quaternion);
+
+                        switch (Hit.collider.tag)
+                        {
+                            case "Object":
+                                Instantiate(objectLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Plant":
+                                Instantiate(plantLidarPoint, Hit.point, quaternion);
+                                break;
+                            case "Interactible":
+                                Instantiate(interactibleLidarPoint, Hit.point, quaternion);
+                                break;
+                            default:
+                                Instantiate(groundLidarPoint, Hit.point, quaternion);
+                                break;
+                        }
                     }
                     AuraStore = Hit.point;
                 }
